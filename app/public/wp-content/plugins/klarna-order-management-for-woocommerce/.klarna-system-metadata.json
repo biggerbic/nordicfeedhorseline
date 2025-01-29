@@ -1,0 +1,10 @@
+{
+    "system_id": "partner-woocommerce",
+    "system_dependencies": [
+        {
+            "system_id": "global-api-routing",
+            "sla_impact": "IMMEDIATE",
+            "description": "Handling all API requests"
+        }
+    ]
+}

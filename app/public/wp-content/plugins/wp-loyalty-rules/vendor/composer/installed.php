@@ -1,0 +1,52 @@
+<?php return array(
+    'root' => array(
+        'name' => 'flycartinc/wp-loyalty',
+        'pretty_version' => '1.2.14.x-dev',
+        'version' => '1.2.14.9999999-dev',
+        'reference' => '44b1f7b72976848252c11e4efcfc789e591c631b',
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'flycartinc/wp-loyalty' => array(
+            'pretty_version' => '1.2.14.x-dev',
+            'version' => '1.2.14.9999999-dev',
+            'reference' => '44b1f7b72976848252c11e4efcfc789e591c631b',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'parsecsv/php-parsecsv' => array(
+            'pretty_version' => '1.3.2',
+            'version' => '1.3.2.0',
+            'reference' => '2d6236cae09133e0533d34ed45ba1e1ecafffebb',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../parsecsv/php-parsecsv',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'vlucas/valitron' => array(
+            'pretty_version' => 'v1.4.11',
+            'version' => '1.4.11.0',
+            'reference' => 'fadce39f5f235755bb9794b2573af2d5bfcba85f',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../vlucas/valitron',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'wployalty/notifications' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'c12b0ad0c783807f7abb9f264e5a88bba90ab4a2',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../wployalty/notifications',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => false,
+        ),
+    ),
+);
